@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - TechCon 2024</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header Section ===== -->
+  <header>
+    <h1>Contact Us</h1>
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+
+    <!-- Contact Information Section -->
+    <section id="contact-info">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+      <p>Follow us on social media:</p>
+      <ul>
+        <li><a href="https://twitter.com/TechCon" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com/TechCon" target="_blank">Facebook</a></li>
+        <li><a href="https://linkedin.com/company/TechCon" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Embedded Google Map Section -->
+    <section id="location">
+      <h2>Conference Venue</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086919548378!2d-122.41941528468261!3d37.77492977975996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2d4c2a2f%3A0x4f7f5b1c3a3b3c3d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1616181382065!5m2!1sen!2sus"
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="POST">
+
+        <!-- Name Field -->
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email" />
+        </div>
+
+        <!-- Message Field -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+          <button type="submit">Send Message</button>
+        </div>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer Section ===== -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
